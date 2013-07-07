@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Windowloader</string>
+    <string name="search">Search</string>
+    <string name="downloads">Downloads</string>
+    <string name="player">Player</string>
+    <string name="popular">popular</string>
+    <string name="settings">Settings</string>
+    <string name="thumbview">thumbneil</string>
+    <string name="title">title</string>
+    <string name="player_button">player</string>
+     <string name="download_button">Download</string>
+</resources>

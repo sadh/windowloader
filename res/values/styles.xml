@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="navbar_button">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/navbar_background_selector</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12dip</item>
+    </style>
+</resources>

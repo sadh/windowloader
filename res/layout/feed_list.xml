@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <ImageView 
+        android:id="@+id/thumbView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/thumbview"/>
+    <TextView
+        android:id="@+id/entry_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/title"/>
+    <ImageButton 
+        android:id="@+id/play_button"
+        android:src="@drawable/play"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/player_button"/>
+    <ImageButton 
+        android:id="@+id/download_button"
+        android:src="@drawable/download"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/download_button"/>
+</TableRow>

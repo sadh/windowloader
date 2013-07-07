@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/searchTerm"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:hint="Enter search term.."
+        android:inputType="text" 
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:text="Search" 
+        android:layout_below="@id/searchTerm"/>
+	<TableLayout 
+	    android:id="@+id/feedlist_container"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search">
+        <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>    
+	</TableLayout>
+    <RadioGroup
+        android:id="@+id/navbar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <RadioButton 
+            android:id="@+id/navbar_search"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_selector"
+            android:text="@string/search"
+            android:checked="true"/>
+        <RadioButton 
+            android:id="@+id/navbar_downloads"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_selector"
+            android:text="@string/downloads"
+            android:layout_marginLeft="5dip"/>
+        <RadioButton 
+            android:id="@+id/navbar_player"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_selector"
+            android:text="@string/player"
+             android:layout_marginLeft="5dip"/>
+        <RadioButton 
+            android:id="@+id/navbar_popular"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_selector"
+            android:text="@string/popular"
+             android:layout_marginLeft="5dip"/>
+        <RadioButton 
+            android:id="@+id/navbar_settings"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_selector"
+            android:text="@string/settings"
+             android:layout_marginLeft="5dip"/> 
+    </RadioGroup>
+
+</RelativeLayout>
